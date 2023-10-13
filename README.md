@@ -1,8 +1,9 @@
 # luci-app-xlnetacc
 适用于 OpenWRT/LEDE 纯Shell实现的迅雷快鸟客户端
 
-依赖: wget openssl-util
+opkg install wget-ssl
 
+ln -s /usr/libexec/wget-ssl /usr/bin/wget-ssl
 
 更新到支持快鸟新协议 300
 
