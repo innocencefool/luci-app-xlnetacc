@@ -1,13 +1,11 @@
 # luci-app-xlnetacc
 适用于 OpenWRT/LEDE 纯Shell实现的迅雷快鸟客户端
 
-OpenWrt 23.05.0-rc4
+OpenWrt 23.05.0
 
 opkg install wget-ssl
 
-ln -s /usr/libexec/wget-ssl /usr/bin/wget-ssl
-
-wget-ssl https://raw.githubusercontent.com/innocencefool/luci-app-xlnetacc/master/files/root/usr/bin/xlnetacc.sh -O /usr/bin/xlnetacc.sh
+wget https://raw.githubusercontent.com/innocencefool/luci-app-xlnetacc/master/files/root/usr/bin/xlnetacc.sh -O /usr/bin/xlnetacc.sh
 
 chmod +x /usr/bin/xlnetacc.sh
 
